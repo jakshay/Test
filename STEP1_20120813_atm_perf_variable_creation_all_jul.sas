@@ -6,12 +6,11 @@ libname atmloc '/cbna/cbnarisk/Essex/atm/analysis/atm_location';
 %include '/cbna/cbnarisk/Essex/Teradata_logon/useridpwd.sas';
 libname frd TERADATA user=&uid. password=&pwd.  tdpid='edwprod' database=P_CBNA_FR_ALL_V_C;
 libname atm_perf '/cbna/cbnarisk/Essex/atm/data/atm_three_months_perf';
+** new piece of test code ** ; 
+
 
 %LET date_begin = %sysfunc(mdy(7,1,2012)) ;
 %LET date_end = %sysfunc(mdy(7,31,2012)) ;
-
-
-**this is a test piece of code ** ; 
 
 
 ** starting date : put one one month prior to starting date for 30days history ** ;
