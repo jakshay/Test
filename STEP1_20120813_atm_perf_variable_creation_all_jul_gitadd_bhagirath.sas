@@ -9,11 +9,14 @@ libname atm_perf '/cbna/cbnarisk/Essex/atm/data/atm_three_months_perf';
 
 %LET date_begin = %sysfunc(mdy(7,1,2012)) ;
 %LET date_end = %sysfunc(mdy(7,31,2012)) ;
+** add comments *** ; 
+** add comments *** ; 
+* add comments *** ; 
+** add comments *** ; 
+
 
 
 ** starting date : put one one month prior to starting date for 30days history ** ;
-%LET rolling_date_begin = %sysfunc(mdy(6,1,2012)) ;
-
 *******************************************************************************************************************************************;
 ********* 0. Pull main data and merging with ATM attributers                                                                      *********;
 *******************************************************************************************************************************************;
